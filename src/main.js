@@ -32,7 +32,7 @@ Vue.config.productionTip = false
 
 Vue.prototype.axios = axios
 axios.defaults.timeout = 5000
-const baseURL = 'https://huang.zgsj1.com/'
+const baseURL = 'http://snow.aapppp.cn/soccer/'
 axios.defaults.baseURL = baseURL
 
 axios.interceptors.request.use((config) => {
